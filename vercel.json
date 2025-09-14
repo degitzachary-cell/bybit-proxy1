@@ -1,3 +1,8 @@
 {
-  "routes": [{ "src": "/api/linear", "dest": "/api/linear.js" }]
+  "functions": {
+    "api/*.js": { "runtime": "nodejs20.x" }
+  },
+  "routes": [
+    { "src": "/api/linear", "dest": "/api/linear.js" }
+  ]
 }
