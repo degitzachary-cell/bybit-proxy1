@@ -1,1 +1,9 @@
-{}
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/linear.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/linear", "dest": "api/linear.js" }
+  ]
+}
